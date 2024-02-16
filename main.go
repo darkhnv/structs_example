@@ -16,4 +16,9 @@ func main() {
 
 	fmt.Println("User Information:")
 	u.PrintUserData()
+
+	admin := user.NewAdmin("admin@example.com", "admin1234")
+
+	fmt.Println("\nAdmin Information:")
+	admin.PrintAdminData()
 }
